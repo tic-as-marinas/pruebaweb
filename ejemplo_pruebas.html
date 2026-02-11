@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Derivado de "Desafío: nubes flotantes"</title>
+        <style>
+            #contenedor {
+                width: 85%;
+                /*height: 80vh;*/
+                margin: auto;
+            }
+            body {
+                font-family: sans-serif;
+            }
+            h1 {
+                font-family: fantasy;
+                border-bottom: 3px dotted rgb(212, 212, 212);
+            }
+            h5 {
+                text-decoration: underline overline;
+                line-height: 0;
+            }
+            #cloud-pic {
+                width: 100px;
+                float: left;
+                margin-right: 10px;
+                margin-bottom: 10px;
+            }
+            #cloud-sidebar {
+                background: rgb(255, 255, 219);
+                float: right;
+                width: 200px;
+                margin-left: 10px;
+                padding-left: 10px;
+            }
+            .text-body {
+                text-align: justify;
+            }
+            #menu_lateral {
+                width: 100%;
+                background-color: royalblue;
+                /*float: left;*/
+                /*height: 100%;*/
+                /*margin-right: 10px;*/
+                text-align: center;
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+            .item_menu {
+                background-color: white;
+                width: 100px;
+                /*margin: auto;*/
+                font-family: fantasy;
+                padding-top: 2px;
+                padding-bottom: 2px;
+                /*margin-top: 10px;
+                margin-bottom: 10px;*/
+                margin: 5px;
+                border-radius: 15px;
+            }
+            
+            .item_menu:hover {
+                background-color: darkblue;
+                color: white;
+            }
+
+            .imagen_con_pie{
+                width: 300px;
+                background-color: lightblue;
+                text-align: center;
+                font-size: 0.7em;
+                border-radius: 15px;
+                padding-bottom: 10px;
+                margin: 10px;
+            }
+
+            .galeria{
+                width: 100%;
+                background-color: royalblue;
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: bottom;
+            }
+
+            #menu_lateral a {
+                text-decoration: none;
+                color: black;
+            }
+        </style>
+    </head>
+    <body>
+
+        <div id="contenedor">
+
+            <div id="menu_lateral">
+                <h5>Tipos de nubes</h5>
+                <a href=""><div class="item_menu">
+                    Cirros
+                </div></a>
+                <div class="item_menu">
+                    Cúmulos
+                </div>
+                <div class="item_menu">
+                    Estratos
+                </div>
+                <div class="item_menu">
+                    Nimbos
+                </div>
+            </div>
+    
+            <h1>What are clouds?</h1>
+
+            <img id="cloud-pic" src="https://www.kasandbox.org/programming-images/landscapes/clouds-from-plane.png">
+            
+            
+            <div id="cloud-sidebar">
+                <h5>Why are some clouds yellow?</h5>
+                <p>Yellowish clouds may occur in the late spring through early fall months during forest fire season. The yellow color is due to the presence of pollutants in the smoke. Yellowish clouds caused by the presence of nitrogen dioxide are sometimes seen in urban areas with high air pollution levels.
+                </p>
+            </div>
+            
+            <p class="text-body">In meteorology, a cloud is a visible mass of liquid droplets or frozen crystals made of water or various chemicals suspended in the atmosphere above the surface of a planetary body. These suspended particles are also known as aerosols and are studied in the cloud physics branch of meteorology.</p>
+
+            <p class="text-body">Terrestrial cloud formation is the result of air in Earth's atmosphere becoming saturated due to either or both of two processes: cooling of the air and adding water vapor. With sufficient saturation, precipitation will fall to the surface.</p>
+            
+            
+            <p><a href="http://en.wikipedia.org/wiki/Cloud">Read more on Wikipedia</a></p>
+
+            <div class="galeria">
+                <div class="imagen_con_pie">
+                    <img src="img/512px-Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpeg" width="300px">
+                    <span>
+                        <a href="https://commons.wikimedia.org/wiki/File:Portrait_of_Philip_II_of_Spain_by_Sofonisba_Anguissola_-_002b.jpg">Sofonisba Anguissola</a>, Public domain, via Wikimedia Commons
+                    </span>
+
+                </div>
+                <div class="imagen_con_pie">
+                    <img src="img/512px-Pédro_DELGADO.jpeg" width="300px">
+                    <span>
+                        <a href="https://commons.wikimedia.org/wiki/File:P%C3%A9dro_DELGADO.jpg">Eric HOUDAS</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+                    </span>
+
+                </div>
+                <div class="imagen_con_pie">
+                    <img src="img/512px-Cañita_Brava.jpeg" width="300px">
+                    <span>
+                        <a href="https://commons.wikimedia.org/wiki/File:Ca%C3%B1ita_Brava.jpg">Marcusfernandez</a>, <a href="https://creativecommons.org/licenses/by-sa/4.0">CC BY-SA 4.0</a>, via Wikimedia Commons
+                    </span>
+
+                </div>
+                <div class="imagen_con_pie">
+                    <img src="img/512px-Julio_Iglesias09.jpeg" width="300px">
+                    <span>
+                        <a href="https://commons.wikimedia.org/wiki/File:Julio_Iglesias09.jpg">Alejandro Vilar</a>, CC0, via Wikimedia Commons
+                    </span>
+            </div>
+        
+    </body>
+</html>
